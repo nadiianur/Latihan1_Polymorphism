@@ -25,6 +25,14 @@ public class VirtualDemo {
         //Dan memanggil method mailCheck pada obj e yang merupakan obj yang ada pada Class pegawai
         System.out.println("\nMemanggil mailCheck berdasarkan referensi pegawai---");
         e.mailCheck();
+        
+        /*Pada class gaji yang merupakan subclas dari class pegawai, otomatis gaji akan mengakses method" yang ada 
+        pada class pegawai yang merupakan super class. 
+        Nantinya hasil keluaran pada terminal akan menampilkan "menyusun pegawai" sebanyak 2x, karena
+        pada class virtual demo kita membuatkan obj untuk class gaji dengan constructor "new Gaji", dan juga 
+        obj untuk class gaji dengan upcasting dari gaji dengan tipe data pegawai. Maka pada obj yg perta dan
+        yang kedua sama-sama mengakses method pegawai yang merupakan method pada super class
+        */
     }
     
 }
