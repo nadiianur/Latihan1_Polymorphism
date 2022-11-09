@@ -1,5 +1,6 @@
 //Class gaji sebagai Child class / Sub Class
 //Turunan dari Class Pegawai, jadi penggunakan perintah extends 
+//polymorphism
 
 public class Gaji extends Pegawai {
     //Variable gaji tahunan
